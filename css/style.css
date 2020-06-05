@@ -113,10 +113,13 @@ body {
 .container {
     max-width: 1200px;
     margin: auto;
+    display: flex;
+
 }
 .menu-sidebar {
     max-width: 192px;
     margin-top: 18px;
+    margin-right: 12px;
 }
 .menu-sidebar .user {
     padding-left: 10px;
@@ -168,4 +171,34 @@ body {
     line-height: 20px;
     margin-bottom: 4px;
     margin-top: 0;
+}
+.main-feed {
+    max-width: 588px;
+    margin-top: 18px;
+}
+.create-post {
+    background: #FFFFFF;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    overflow: hidden;
+}
+.create-post-header {
+    padding: 9px 16px;
+    background: #F5F5F5;
+}
+.create-post-title {
+    margin: 0;
+    color: #595959;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.create-post-body {
+    padding: 16px 16px 24px;
+    display: flex;
+    align-items: flex-start;
+}
+.create-post-input {
+    width: 100%;
+    padding-top: 8px;
 }
